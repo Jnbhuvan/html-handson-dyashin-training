@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TableForm</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <table border="1">
+        <tr>
+          <th colspan="2">Fill the form below</th>
+        </tr>
+
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td><input type="text" id="name" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td><input type="text" id="password" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="feedback">Feedback</label></td>
+          <td><textarea name="" id="feedback"></textarea></td>
+        </tr>
+
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td>
+            <label for="male">male</label>
+            <input type="radio" name="" id="male" name="gender" />
+            <label for="female">female</label>
+            <input type="radio" name="" id="female" name="gender" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Subject</td>
+          <td>
+            <label for="web">web</label>
+            <input type="checkbox" name="" id="web" />
+
+            <label for="math">math</label>
+            <input type="checkbox" id="math" />
+
+            <label for="graphics">graphics</label>
+            <input type="checkbox" name="" id="graphics" />
+
+            <label for="english">english</label>
+            <input type="checkbox" name="" id="english" />
+          </td>
+        </tr>
+
+        <tr align="center">
+          <td colspan="2">
+            <input type="submit" name="" id="" />
+            <input type="reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
